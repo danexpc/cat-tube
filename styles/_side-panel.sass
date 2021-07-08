@@ -5,7 +5,7 @@
     justify-content: space-between
     width: 300px
     height: calc(100vh - 60px)
-    background-color: $light_color
+    background-color: #fff
 
 .channels
     display: flex
@@ -65,20 +65,3 @@
         color: $light_color
         &:hover
             color: $main_color
-
-@media ( max-width: 1199px )
-    .channel
-        &-metadata,
-        &-name
-            display: none
-        &-container
-            overflow-x: hidden
-    .side-panel
-        width: 8rem
-    .main-panel
-        width: calc(100% - 8rem)
-        margin-left: 8rem
-    .info-container
-        display: none
-    .category-section
-        width: calc(100vw - 8rem - 6rem)
