@@ -119,6 +119,28 @@
   height: 25px;
 }
 
+.footer-info {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-info-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-info-link:hover {
+  color: #cf2d2d;
+}
+
+.footer-info-icon {
+  height: 30px;
+  width: 30px;
+  fill: #cf2d2d;
+}
+
 .main-panel {
   width: calc(100% - 300px);
   margin-left: 300px;
