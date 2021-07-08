@@ -439,6 +439,7 @@
   min-height: 60px;
   width: 100%;
   cursor: pointer;
+  overflow-x: hidden;
 }
 
 .channel-container:hover {
