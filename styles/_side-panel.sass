@@ -15,8 +15,8 @@
 .channel
     &-container
         padding: 0 3rem
-        display: flex
-        justify-content: space-between
+        display: grid
+        grid-template-columns: repeat(3, 6rem)
         align-items: center
         margin-bottom: 10px
         min-height: 60px
@@ -59,6 +59,9 @@
         font-size: 24px
         font-weight: 300
         color: #F5F2EF
+        &::selection
+            color: #2B1D03
+            background: #F29F05
 
 .social-network-container
     display: flex
