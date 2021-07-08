@@ -155,7 +155,7 @@
   position: fixed;
   background-color: #fff;
   width: 100%;
-  padding: 0 50px;
+  padding: 0 5rem;
   border-top: 1px solid #F29F05;
   border-bottom: 1px solid #F29F05;
   z-index: 2;
@@ -163,7 +163,7 @@
 
 .category-section {
   height: 60px;
-  width: calc(100vw - 300px - 100px);
+  width: calc(100vw - 300px - 10rem);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -213,7 +213,7 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 3rem 1rem;
   padding: 3rem 0;
-  margin: 0 1.5rem;
+  margin: 0 5rem;
   border-top: 4px solid #CCC;
 }
 
