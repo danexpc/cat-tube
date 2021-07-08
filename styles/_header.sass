@@ -65,3 +65,42 @@
     height: 36px
     border: solid 2px #fff
     background-color: #c3c3c3
+
+.menu-options
+    display: none
+
+.secret-checkbox
+    position: fixed
+    width: 37px
+    height: 37px
+    top: 0.4rem
+    right: 3.5rem
+    cursor: pointer
+    opacity: 0
+
+.menu-toggle input:checked ~ .menu-options
+    display: block
+
+.menu-options
+    padding: 0
+    position: fixed
+    border-radius: 15px
+    background-color: rgb(255,255,255)
+    top: 2.5rem
+    right: 4rem
+    z-index: 2
+    list-style-type: none
+    li
+        cursor: pointer
+        padding: 0.8rem 3rem
+        &:hover
+            background-color: #c2c2c2
+        &:last-child
+            a, i
+                color: #cf2d2d
+    a
+        font-size: 18px
+        text-decoration: none
+        color: #2B1D03
+        font-weight: 500
+        margin-left: 1rem
