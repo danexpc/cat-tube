@@ -225,6 +225,7 @@
   font-size: 14px;
   cursor: pointer;
   transition: background-color 150ms;
+  color: #2B1D03;
 }
 
 .category:hover {
@@ -338,7 +339,7 @@
   font-size: 16px;
   margin-bottom: .4rem;
   text-decoration: none;
-  color: black;
+  color: #2B1D03;
 }
 
 .video-channel-name {
@@ -421,7 +422,7 @@
 .channel-name {
   margin-left: -3rem;
   text-decoration: none;
-  color: #000;
+  color: #2B1D03;
   font-size: 16px;
   font-weight: 500;
 }
