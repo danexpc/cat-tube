@@ -387,7 +387,7 @@
 .info-container-title {
   font-size: 24px;
   font-weight: 300;
-  color: #fff;
+  color: #F5F2EF;
 }
 
 .social-network-container {
@@ -401,7 +401,7 @@
 .social-network-icon {
   width: 30px;
   height: 30px;
-  fill: #fff;
+  fill: #F5F2EF;
 }
 
 .social-network-icon:hover {
