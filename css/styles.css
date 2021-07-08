@@ -88,11 +88,14 @@
   align-items: center;
   color: #fff;
   background-color: #2B1D03;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .footer-info-link {
   text-decoration: none;
   color: #fff;
+  font-weight: 500;
 }
 
 .footer-info-link:hover {
@@ -244,13 +247,15 @@
 
 .video-title {
   font-size: 1.1rem;
-  font-weight: bold;
-  margin-bottom: .5rem;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: .4rem;
   text-decoration: none;
   color: black;
 }
 
 .video-channel-name {
+  font-weight: 500;
   margin-bottom: .1rem;
   text-decoration: none;
   transition: 150ms;
@@ -260,8 +265,13 @@
   color: #111;
 }
 
+.video-metadata {
+  font-weight: 300;
+}
+
 .video-channel-name,
 .video-metadata {
+  font-size: 14px;
   color: #555;
 }
 
@@ -272,6 +282,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 .5rem;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .video-section-title-close {
@@ -320,9 +332,16 @@
 }
 
 .channel-name {
-  margin-left: -3.5rem;
+  margin-left: -3rem;
   text-decoration: none;
   color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.channel-metadata {
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .channel-live {
@@ -353,8 +372,8 @@
 }
 
 .info-container-title {
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 300;
   color: #fff;
 }
 
