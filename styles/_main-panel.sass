@@ -67,6 +67,16 @@
 .thumbnail
     position: relative
     display: flex
+    background-color: #000
+    i
+        position: relative
+        color: #fff
+        font-size: 3rem
+    &:hover
+        .play-hover
+            opacity: 1
+        .thumbnail-image
+            opacity: 0.5
 
 .live
     &::after
@@ -79,9 +89,9 @@
         padding: .1em .5em
         border-radius: .3em
         font-size: .9em
-        animation: pulse-dot 1.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.8s infinite
+        animation: pulse 1.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.8s infinite
 
-@keyframes pulse-dot
+@keyframes pulse
     0%
         transform: scale(1)
 
@@ -108,6 +118,16 @@
     min-width: 250px
     min-height: 150px
     background-color: #AAA
+
+.play-hover
+    opacity: 0
+    position: absolute
+    top: 35%
+    left: 50%
+    transform: translateY(-50%)
+    transform: translateX(-50%)
+    font-size: 2rem
+    color: #fcedd2
 
 .video-bottom-section
     display: flex
