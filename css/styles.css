@@ -155,8 +155,8 @@
   background-color: #fff;
   width: 100%;
   padding: 0 50px;
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
+  border-top: 1px solid #F29F05;
+  border-bottom: 1px solid #F29F05;
   z-index: 2;
 }
 
@@ -276,6 +276,7 @@
 
 .videos {
   padding-top: 60px;
+  background-color: #F5F2EF;
 }
 
 .container {
