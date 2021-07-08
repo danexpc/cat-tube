@@ -1,1 +1,51 @@
+.header
+    display: flex
+    padding: 0 50px
+    height: 80px
+    justify-content: space-between
+    align-items: center
 
+.search
+    &-bar
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-grow: 1
+        margin: 0 2rem 0 4rem
+    &-input
+        width: 50%
+        padding: .5em 1.6em
+        border: 1px solid #F29F05
+        border-top-left-radius: 15px
+        border-bottom-left-radius: 15px
+        border-top-right-radius: 0
+        border-bottom-right-radius: 0
+    &-btn
+        padding: 0.3rem 1.6rem
+        border: none
+        background-color: #F29F05
+        border-top-left-radius: 0
+        border-bottom-left-radius: 0
+        border-top-right-radius: 15px
+        border-bottom-right-radius: 15px
+        &:hover
+            background-color: #d48c06
+        svg
+            fill: #fff
+            width: 20px
+            height: 20px
+
+.menu-icons
+    display: grid
+    align-items: center
+    grid-template-columns: repeat(2, auto)
+    gap: 2rem
+    .bell
+        &:hover
+            fill: #F29F05
+
+.channel-icon
+    border-radius: 50%
+    width: 36px
+    height: 36px
+    background-color: #c3c3c3
