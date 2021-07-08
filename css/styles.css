@@ -197,13 +197,26 @@
 .live::after {
   content: 'live';
   position: absolute;
-  background-color: rgba(187, 17, 17, 0.8);
+  background-color: #bb1111;
   color: white;
   left: 10px;
   top: 10px;
   padding: .1em .5em;
   border-radius: .3em;
   font-size: .9em;
+  animation: pulse-dot 1.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.8s infinite;
+}
+
+@keyframes pulse-dot {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .thumbnail::before {
