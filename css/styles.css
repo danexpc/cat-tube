@@ -2,7 +2,7 @@
   position: fixed;
   display: flex;
   padding: 0 50px;
-  height: 80px;
+  height: 60px;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
@@ -280,7 +280,7 @@
 
 .container {
   padding-top: 20px;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 *, *::before, *::after {
