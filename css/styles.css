@@ -10,6 +10,11 @@
   z-index: 2;
 }
 
+.logo {
+  height: 2rem;
+  margin-left: -1.8rem;
+}
+
 .search-bar {
   display: flex;
   justify-content: center;
@@ -27,6 +32,7 @@
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   font-size: 14px;
+  max-height: 2rem;
 }
 
 .search-btn {
@@ -37,6 +43,7 @@
   border-bottom-left-radius: 0;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  max-height: 2rem;
 }
 
 .search-btn:hover {
