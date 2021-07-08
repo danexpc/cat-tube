@@ -4,7 +4,7 @@
     flex-direction: column
     justify-content: space-between
     width: 300px
-    height: calc(100vh - 60px - 20px)
+    height: calc(100vh - 60px)
 
 .channels
     display: flex
@@ -31,17 +31,26 @@
 .info-container
     display: flex
     flex-direction: column
-    justify-content: space-between
     align-items: center
+    justify-content: center
+    padding: 1rem
     text-align: center
-    margin-bottom: 40px
+    background-color: #2B1D03
+    &-title
+        font-size: 22px
+        font-weight: 500
+        color: #fff
 
-.social-network
-    &-container
-        display: grid
-        align-items: center
-        grid-template-columns: repeat(3, auto)
-        gap: 2rem
-    &-icon
-        width: 25px
-        height: 25px
+.social-network-container
+    display: flex
+    gap: 2rem
+    justify-content: center
+    width: 100%
+    padding: 0.5rem 1.5rem
+
+.social-network-icon
+    width: 30px
+    height: 30px
+    fill: #fff
+    &:hover
+        fill: orange
