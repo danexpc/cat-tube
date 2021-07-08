@@ -5,7 +5,7 @@
     justify-content: space-between
     width: 300px
     height: calc(100vh - 60px)
-    background-color: #F5F2EF
+    background-color: $light_color
 
 .channels
     display: flex
@@ -35,18 +35,8 @@
         font-size: 14px
         font-weight: 300
     &-live
-        border: solid 2px #ca1212
+        border: solid 2px $additional_color
         animation: pulse-dot 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.8s infinite
-
-@keyframes pulse-dot
-    0%
-        transform: scale(1)
-
-    50%
-        transform: scale(1.2)
-
-    100%
-        transform: scale(1)
 
 .info-container
     display: flex
@@ -55,14 +45,14 @@
     justify-content: center
     padding: 1rem
     text-align: center
-    background-color: #2B1D03
+    background-color: $dark_color
     &-title
         font-size: 24px
         font-weight: 300
-        color: #F5F2EF
+        color: $light_color
         &::selection
-            color: #2B1D03
-            background: #F29F05
+            color: $dark_color
+            background: $main_color
 
 .social-network-container
     display: flex
@@ -72,9 +62,9 @@
     padding: 0.5rem 1.5rem
     i
         font-size: 32px
-        color: #F5F2EF
+        color: $light_color
         &:hover
-            color: #F29F05
+            color: $main_color
 
 @media ( max-width: 1199px )
     .channel
