@@ -34,6 +34,7 @@
         background-color: #F5F2EF
     &-btn
         padding: 0.3rem 1.6rem
+        padding-bottom: 0.5rem
         border: none
         background-color: #F29F05
         border-top-left-radius: 0
@@ -44,20 +45,33 @@
 
         &:hover
             background-color: #d48c06
-        svg
-            fill: #fff
-            width: 20px
-            height: 20px
+        i
+            color: #fff
+            font-size: 22px
+
+.micro-btn
+    padding: 0.25rem 1.5rem
+    padding-bottom: 0.5rem
+    border: none
+    background-color: #2B1D03
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+    max-height: 2rem
+    color: #fff
+    font-size: 22px
+    &:hover
+        color: #F29F05
 
 .menu-icons
     display: grid
     align-items: center
     grid-template-columns: repeat(2, auto)
     gap: 2rem
-    .bell
-        fill: #fff
+    i
+        font-size: 25px
+        color: #fff
         &:hover
-            fill: #F29F05
+            color: #F29F05
 
 .channel-icon
     border-radius: 50%
@@ -104,3 +118,8 @@
         color: #2B1D03
         font-weight: 500
         margin-left: 1rem
+    li
+        i
+            font-size: 18px
+            font-weight: 700
+            color: #2B1D03
