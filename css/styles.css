@@ -262,8 +262,20 @@
   display: flex;
 }
 
+.live::after {
+  content: 'live';
+  position: absolute;
+  background-color: #bb1111;
+  color: white;
+  left: 10px;
+  top: 10px;
+  padding: .1em .5em;
+  border-radius: .3em;
+  font-size: .9em;
+}
+
 .thumbnail::before {
-  content: attr(data-duration);
+  content: attr(data);
   position: absolute;
   background-color: rgba(0, 0, 0, 0.85);
   color: white;
