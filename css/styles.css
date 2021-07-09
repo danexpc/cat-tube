@@ -468,7 +468,7 @@
 
 .channel-live {
   border: solid 2px #cf2d2d;
-  animation: pulse-dot 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.8s infinite;
+  animation: pulse 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.8s infinite;
 }
 
 .info-container {
